@@ -38,6 +38,6 @@ class TasksController < ApplicationController
     private
     
     def task_params
-        params.permit(:day_id, :category_id, :content)
+        params.permit(:day_id, :category_id, :content, :complete)
     end
 end
